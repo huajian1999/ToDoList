@@ -7,7 +7,7 @@ JavaWeb,仿照Microsoft To Do样子做的，很简陋
 
 工具
 
-  前端：HBuilderX(偶尔会闪退，但是内容没丢失)
+  前端：HBuilderX(偶尔会闪退，但是没保存的内容也没丢失)
   后台：IDEA
   数据库：mysql
 
