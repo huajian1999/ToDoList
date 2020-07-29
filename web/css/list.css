@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: white;
+}
+#top{
+	padding:10px 10px;
+	position: relative;
+}
+#top #title{
+	color:rgb(121,121,121);
+}
+#top #person{
+	margin-top:20px;
+	margin-left:20px;
+}
+#top #person h4{
+	font-weight: normal;
+}
+#top #person p{
+	font-size:13px;
+	color:#828285;
+}
+#top a{
+	display: block;
+	width:30px;
+	height:30px;
+	position: absolute;
+	top:50px;
+	right:25px;
+	padding:5px;
+	background-color: #fff;
+}
+#top a img{
+	width: 30px;
+}
+hr{
+	background-color:#e8e8ea;
+	height:2px;
+	border:0;
+	width:85%;
+	margin:0 auto;
+}
+#list{
+	margin-top:10px;
+}
+#list ul{
+	width:100%;
+	list-style: circle inside;
+}
+#list ul li{
+	height:50px;
+	padding-left:30px;
+	line-height: 50px;
+}
+#list ul li a{
+	color:#000;
+}
+#list ul li:hover{
+	background-color:rgb(241,242,244);
+}
+#list>a{
+	color:#737373;
+	display: block;
+	height:50px;
+	background-image: url(../images/加号.png);
+	background-size:25px 25px;
+	background-position: 20px center;
+	background-repeat: no-repeat;
+	padding-left:60px;
+	line-height: 50px;
+	margin-bottom: 5px;
+}
+#list>a:hover{
+	background-color:rgb(241,242,244);
+}
+#list #newlist{
+	width:140px;
+	height:30px;
+	border:2px solid #98d1fc;
+	margin-left:30px;
+	margin-right: 10px;
+}
+#list #newlist:focus{
+	box-shadow: 1px 1px 3px 2px #9cc6e7;
+}
+#list button{
+	width:60px;
+	height:30px;
+	color:#fff;
+	background-color: #82a2fa;
+	border:0;
+	outline:none;
+	border-radius: 3px;
+	margin-left:5px;
+}
+
+#menu{
+	width: 120px;
+	background: #fff;
+	border:1px solid #ccc;
+	box-shadow: 1px 1px 2px 1px #aaa;
+	border-radius: 3px;
+	position: absolute;
+	display: none;
+}
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	width:120px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+#menu ul li:nth-child(1){
+	border-bottom: 1px solid #E8E8EA;
+}
+#menu ul li:nth-child(2){
+	color:red;
+}
+#menu ul li:hover{
+	background-color: #f5f6f7;
+}

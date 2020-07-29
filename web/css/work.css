@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: rgb(107,127,207);
+}
+#box{
+	padding:50px 0 0 50px;
+	margin-bottom: 100px;
+}
+#box h1{
+	color:#fff;
+}
+#box button{
+	width:122px;
+	height:45px;
+	padding-left:18px;
+	background-color: rgb(93,111,182);
+	border:0;
+	border-radius: 5px;
+	outline: none;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 200;
+	background-image: url(../images/jiantou_xia.png);
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 10px center;
+}
+#box ul{
+	list-style: none;
+	display:block;
+	transition:all 2s;
+}
+#box ul li{
+	width:663px;
+	height:60px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	position:relative;
+}
+#box #done li label{
+	text-decoration: line-through;
+	color:#6e6e6e;
+}
+#box ul li:hover{
+	background-color: #eef0f8;
+}
+#box ul li img{
+	margin-top:14px;
+	margin-left:20px;
+	width:32px;
+}
+
+#box ul li label{
+	height:60px;
+	line-height: 60px;
+	position:absolute;
+	left:62px;
+}
+#bottom{
+	margin-left:50px;
+	width:100%;
+	height:100px;
+	background-color: rgb(107,127,207);
+	position:fixed;
+	bottom:0;
+	padding-top:10px;
+	z-index: 10;
+}
+#bottom .addtask{
+	width:663px;
+	height:50px;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	background-color: #5c70be;
+	padding-top:20px;
+}
+#bottom .addtask img{
+	/* margin-top:14px; */
+	margin-left:20px;
+	width:32px;
+}
+#bottom .addtask input{
+	height:30px;
+	position:absolute;
+	left:62px;
+	background-color: #5c70be;
+	border:0;
+	font-size: 18px;
+	outline: none;
+	color:#fff;
+	
+}
+#bottom .addtask input::-webkit-input-placeholder{
+	color:#fff;
+}
+/* WebKit, Blink, Edge */
+::-webkit-input-placeholder {color:#fff; }
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {color: #fff; }
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {color:#fff; }
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {olor:fff; }
+
+#menu{
+	width: 120px;
+	background: #fff;
+	border:1px solid #ccc;
+	box-shadow: 1px 1px 2px 1px #aaa;
+	border-radius: 3px;
+	position: absolute;
+	display: none;
+}
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	width:120px;
+	height:40px;
+	color:red;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+#menu ul li:hover{
+	background-color: #f5f6f7;
+}
